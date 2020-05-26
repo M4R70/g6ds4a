@@ -1,0 +1,16 @@
+extras = [
+                 'monoambiente' ,
+                 'apto_profesional' ,
+                 'cochera' ,
+                 'torre' ,
+                 'studio' ,
+                 'amenities' ,
+                 'pileta' ,
+                 'sum' ,
+                 'gym' ,
+                 'laundry' ,
+                 'balcon' ,
+                 'losa_radiante' ,
+                 'amoblado' ,
+                 'parrilla' ,
+                 'duplex' ,]

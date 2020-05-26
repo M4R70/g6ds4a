@@ -1,0 +1,9 @@
+
+*.csv
+*.geojson
+*.idea*
+*__pycache__*
+*.ipynb_checkpoints*
+*.joblib
+*.rar
+

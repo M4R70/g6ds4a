@@ -177,7 +177,7 @@ def submit(n_clicks , form):
 
     encoded_data = urllib.parse.quote(json.dumps(data))
 
-    resp = requests.get('http://localhost:5000/' + encoded_data)
+    resp = requests.get('http://http://ec2-52-15-217-248.us-east-2.compute.amazonaws.com:5000/' + encoded_data)
     resp = resp.json()
     print(resp)
 

@@ -110,7 +110,7 @@ if __name__ == '__main__':
     # inputter = 3
     print('DONE! App running... \n \n \n')
     api.add_resource(Model , '/<data>' , resource_class_kwargs={'predictor': predictor , 'inputter': inputter})
-    app.run(debug=False)
+    app.run(debug=False,host='0.0.0.0')
     # print('API ONLINE')
     # f, df = get_df_and_features()
     # print(api.predict(df[f].head(1)) - df['price_per_square_meter'].head(1))
